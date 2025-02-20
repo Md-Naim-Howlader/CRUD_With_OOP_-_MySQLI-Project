@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "arial";
+}
+.btn {
+  text-decoration: none;
+  padding: 8px 13px;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  transition: 0.3s;
+}
+.btn-success {
+  background: #2ecc71;
+}
+.btn-success:hover {
+  background: #27ae60;
+}
+.btn-primary {
+  background: #3498db;
+  margin-top: 20px;
+}
+.btn-primary:hover {
+  background: #2980b9;
+}
+.btn-danger {
+  background: #e74c3c;
+}
+.btn-danger:hover {
+  background: #c0392b;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ddd;
+}
+.header,
+.footer {
+  background: #414141;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.header h2,
+.footer h2 {
+  margin: 0;
+}
+.main {
+  min-height: 500px;
+  padding: 10px;
+}
+table.table_one {
+  width: 100%;
+  border: 1px solid #fff;
+}
+table.table_one tr:nth-child(2n + 1) {
+  background-color: #fff;
+  height: 30px;
+}
+table.table_one tr:nth-child(2n) {
+  background-color: #f1f1f1;
+  height: 30px;
+}
+table.table_one tr td {
+  padding: 0 10px;
+}
+table.table_one tr td a:first-child {
+  float: left;
+}
+table.table_one tr td a:last-child {
+  float: right;
+}
+input {
+  margin-bottom: 10px;
+  padding: 9px 7px;
+  font-size: 17px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+input[type="submit"] {
+  background: #4f5b93;
+  border: none;
+  border-radius: 6px;
+  padding: 9px 12px;
+  color: #ffff;
+  cursor: pointer;
+}
+input[type="text"]:focus {
+  border-color: #4f5b93;
+}
+.insert {
+  color: #06960e;
+  font-weight: bold;
+}
+.delete {
+  color: #de5a24;
+  font-weight: bold;
+}
+.error {
+  color: #de5a24;
+}
